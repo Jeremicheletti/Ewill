@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Ma page{% endblock %}
+
+{% block body %}
+<div class='container mt-4'>
+    <h1>Bonjour et bienvue sur le site</h1>
+        
+    <a href="{{ path('app_product') }}" class="btn btn-secondary">
+			Voir la liste des produits
+		</a>
+</div>
+
+{% endblock %}
